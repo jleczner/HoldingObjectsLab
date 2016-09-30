@@ -29,12 +29,13 @@ public class PhoneBookTest {
 
     @Test
     public void removeEntryTest() {
-
+        pb.addEntry("Bob Jones", 1234567);
+        assertNotNull(pb.removeEntry("Bob Jones", 1234567)); // not null, returns name of removed
     }
 
     @Test
     public void removeEntryAgainTest() {
-
+        assertNull(pb.removeEntry("Bob Jones", 1234567)); // null, returns name of removed
     }
 
     @Test

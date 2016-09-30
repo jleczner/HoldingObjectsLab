@@ -42,7 +42,18 @@ public class PhoneBook {
     }
 
     public String removeEntry(String name, int phoneNumber) {
-        return null;
+        if (entries.containsKey(name)) {
+            if (entries.get(name).contains(phoneNumber)) {
+                entries.remove(name, phoneNumber);
+                return name;
+            } else {
+                System.out.println("Entry not found: " + name + " " + phoneNumber);
+                return null;
+            }
+        } else {
+            System.out.println("Entry not found: " + name + " " + phoneNumber);
+            return null;
+        }
     }
 
     public String removeRecord(String name) {
