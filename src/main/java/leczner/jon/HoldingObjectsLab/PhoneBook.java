@@ -22,6 +22,12 @@ public class PhoneBook {
     }
 
     public String reverseLookup(int phoneNumber) {
+        Set<Map.Entry<String, List<Integer>>> entrySet = entries.entrySet();
+        for (Map.Entry<String, List<Integer>> entry : entrySet) {
+            if (entry.getValue().contains(phoneNumber)) {
+                return entry.getKey();
+            }
+        }
         return null;
     }
 
@@ -54,7 +60,13 @@ public class PhoneBook {
     }
 
     public String removeRecord(String name) {
-        return null;
+        if (entries.containsKey(name)) {
+            entries.remove(name);
+            return name;
+        } else {
+            System.out.println("Record not found: " + name);
+            return null;
+        }
     }
 
     public Set<String> listAllNames() {

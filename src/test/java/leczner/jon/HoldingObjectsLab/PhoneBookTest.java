@@ -40,12 +40,14 @@ public class PhoneBookTest {
 
     @Test
     public void removeRecordTest() {
-
+        pb.addEntry("Bob Jones", 1234567);
+        pb.addEntry("Bob Jones", 4321765);
+        assertNotNull(pb.removeRecord("Bob Jones"));
     }
 
     @Test
     public void removeRecordAgainTest() {
-
+        assertNull(pb.removeRecord("Bob Jones"));
     }
 
     @Test
@@ -63,12 +65,13 @@ public class PhoneBookTest {
 
     @Test
     public void reverseLookupFailTest() {
-
+        assertNull(pb.reverseLookup(1234567));
     }
 
     @Test
     public void reverseLookupTest() {
-
+        pb.addEntry("Bob Jones", 1234567);
+        assertEquals("Bob Jones", pb.reverseLookup(1234567));
     }
 
     @Test
