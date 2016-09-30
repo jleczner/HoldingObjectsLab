@@ -21,6 +21,31 @@ public class PhoneBookTest {
     }
 
     @Test
+    public void addEntryAgainTest() {
+
+    }
+
+    @Test
+    public void removeEntryTest() {
+
+    }
+
+    @Test
+    public void removeEntryAgainTest() {
+
+    }
+
+    @Test
+    public void removeRecordTest() {
+
+    }
+
+    @Test
+    public void removeRecordAgainTest() {
+
+    }
+
+    @Test
     public void lookupFailTest() {
         assertNull(pb.lookup("Bob Jones"));
     }
@@ -31,5 +56,15 @@ public class PhoneBookTest {
         pb.addEntry("Bob Jones", 3216547);
         List<Integer> actual = pb.lookup("Bob Jones");
         assertEquals(1234567, actual.get(0).intValue());
+    }
+
+    @Test
+    public void reverseLookupFailTest() {
+
+    }
+
+    @Test
+    public void reverseLookupTest() {
+
     }
 }
