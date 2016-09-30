@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a12007e7-cd84-42b5-8d51-cd5129fc1abc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneBook.png" afterPath="$PROJECT_DIR$/PhoneBook.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/leczner/jon/HoldingObjectsLab/PhoneBook.java" afterPath="$PROJECT_DIR$/src/main/java/leczner/jon/HoldingObjectsLab/PhoneBook.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/leczner/jon/HoldingObjectsLab/PhoneBookTest.java" afterPath="$PROJECT_DIR$/src/test/java/leczner/jon/HoldingObjectsLab/PhoneBookTest.java" />
     </list>
     <ignored path="HoldingObjectsLab.iws" />
@@ -27,39 +27,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PhoneBook.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PhoneBook.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/leczner/jon/HoldingObjectsLab/PhoneBook.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-                <element signature="e#984#985#0" expanded="true" />
-                <element signature="e#1006#1007#0" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-                <element signature="e#1073#1074#0" expanded="true" />
-                <element signature="e#1107#1108#0" expanded="true" />
-                <element signature="e#1129#1130#0" expanded="true" />
-                <element signature="e#1165#1166#0" expanded="true" />
-                <element signature="e#1187#1188#0" expanded="true" />
+                <element signature="docComment;class#PhoneBook#0" expanded="false" />
+                <element signature="method#lookup#0;class#PhoneBook#0" expanded="false" />
+                <element signature="method#addEntry#0;class#PhoneBook#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhoneBookTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PhoneBookTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/leczner/jon/HoldingObjectsLab/PhoneBookTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+            <state relative-caret-position="182">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,8 +79,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/PhoneBook.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leczner/jon/HoldingObjectsLab/PhoneBook.java" />
         <option value="$PROJECT_DIR$/src/test/java/leczner/jon/HoldingObjectsLab/PhoneBookTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leczner/jon/HoldingObjectsLab/PhoneBook.java" />
       </list>
     </option>
   </component>
@@ -717,7 +709,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475239999380</updated>
-      <workItem from="1475240000877" duration="5063000" />
+      <workItem from="1475240000877" duration="5369000" />
     </task>
     <servers />
   </component>
@@ -736,7 +728,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5063000" />
+    <option name="totallyTimeSpent" value="5369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -813,36 +805,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leczner/jon/HoldingObjectsLab/PhoneBook.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/leczner/jon/HoldingObjectsLab/PhoneBookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="182">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1073#1074#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/leczner/jon/HoldingObjectsLab/PhoneBookTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leczner/jon/HoldingObjectsLab/PhoneBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
+            <element signature="docComment;class#PhoneBook#0" expanded="false" />
+            <element signature="method#lookup#0;class#PhoneBook#0" expanded="false" />
+            <element signature="method#addEntry#0;class#PhoneBook#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -22,7 +22,7 @@ public class PhoneBookTest {
 
     @Test
     public void addEntryAgainTest() {
-
+        pb.addEntry("Bob Jones", 1234567);
     }
 
     @Test

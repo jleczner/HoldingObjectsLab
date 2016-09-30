@@ -37,19 +37,19 @@ public class PhoneBook {
         entries.put(name, numbers);
     }
 
-    public void removeEntry(String name, int phoneNumber) {
-        return;
+    public String removeEntry(String name, int phoneNumber) {
+        return null;
     }
 
-    public void removeRecord(String name) {
-        return;
+    public String removeRecord(String name) {
+        return null;
     }
 
-    public void listAllNames() {
-        return;
+    public List<String> listAllNames() {
+        return null;
     }
 
-    public void listAllEntries() {
-        return;
+    public Map<String, List<Integer>> listAllEntries() {
+        return null;
     }
 }
