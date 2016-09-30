@@ -54,7 +54,7 @@ public class PhoneBook {
                 return null;
             }
         } else {
-            System.out.println("Entry not found: " + name + " " + phoneNumber);
+            System.out.println("Record not found: " + name);
             return null;
         }
     }

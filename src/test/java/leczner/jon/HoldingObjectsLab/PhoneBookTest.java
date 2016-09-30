@@ -34,7 +34,12 @@ public class PhoneBookTest {
     }
 
     @Test
-    public void removeEntryAgainTest() {
+    public void removeEntryWithMultipleTest() {
+        pb.addEntry("Bob Jones", 1234567);
+        assertNull(pb.removeEntry("Bob Jones", 1234568));
+    }
+    @Test
+    public void removeEntryWithoutRecordTest() {
         assertNull(pb.removeEntry("Bob Jones", 1234567)); // null, returns name of removed
     }
 
