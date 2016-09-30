@@ -1,9 +1,6 @@
 package leczner.jon.HoldingObjectsLab;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 /**
  * Created by jonathanleczner on 9/30/16.
@@ -60,11 +57,21 @@ public class PhoneBook {
         return null;
     }
 
-    public List<String> listAllNames() {
-        return null;
+    public Set<String> listAllNames() {
+        Set<String> names = entries.keySet();
+        System.out.println(names);
+        return names;
     }
 
     public Map<String, List<Integer>> listAllEntries() {
-        return null;
+        Set<Map.Entry<String, List<Integer>>> entrySet = entries.entrySet();
+        for (Map.Entry<String, List<Integer>> entry : entrySet) {
+            System.out.println(entry.getKey() + ": ");
+            List<Integer> numbers = entry.getValue();
+            for (int i : numbers) {
+                System.out.println(i);
+            }
+        }
+        return entries;
     }
 }

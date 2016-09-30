@@ -70,4 +70,22 @@ public class PhoneBookTest {
     public void reverseLookupTest() {
 
     }
+
+    @Test
+    public void listAllNamesTest() {
+        pb.addEntry("Smith, Catherine", 1234789);
+        pb.addEntry("Jones, Bob", 1234567);
+        pb.addEntry("Jones, Bob", 4312765);
+        pb.addEntry("Jones, Alice", 2347891);
+        assertNotNull(pb.listAllNames());
+    }
+
+    @Test
+    public void listAllEntriesTest() {
+        pb.addEntry("Jones, Bob", 1234567);
+        pb.addEntry("Smith, Catherine", 1234789);
+        pb.addEntry("Jones, Bob", 4312765);
+        pb.addEntry("Jones, Alice", 2347891);
+        assertNotNull(pb.listAllEntries());
+    }
 }
