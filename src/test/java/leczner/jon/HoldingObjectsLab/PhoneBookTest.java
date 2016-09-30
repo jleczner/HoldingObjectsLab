@@ -23,6 +23,8 @@ public class PhoneBookTest {
     @Test
     public void addEntryAgainTest() {
         pb.addEntry("Bob Jones", 1234567);
+        pb.addEntry("Bob Jones", 1234567);
+        assertEquals(1, pb.lookup("Bob Jones").size());
     }
 
     @Test

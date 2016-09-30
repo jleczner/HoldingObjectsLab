@@ -33,7 +33,11 @@ public class PhoneBook {
         if (numbers == null) {
             numbers = new ArrayList<>();
         }
-        numbers.add(phoneNumber);
+        if (!numbers.contains(phoneNumber)) {
+            numbers.add(phoneNumber);
+        } else {
+            System.out.println("Duplicate entry: " + name + " " + phoneNumber);
+        }
         entries.put(name, numbers);
     }
 
